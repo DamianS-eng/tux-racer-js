@@ -1,0 +1,18 @@
+{
+    "name": "ebbejan's Tux Racer JS",
+    "short_name": "Tux Racer JS",
+    "icons": [
+        {
+            "src": "https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/32x32%23/wpQMLY.png",
+            "sizes": "any",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["gaming", "entertainment"],
+    "description": "DaMu's Fork of ebbejan's Tux Racer JS from GitHub",
+    "start_url": "./",
+    "theme_color": "#4040c8",
+    "background_color": "#3333ee",
+    "display": "standalone",
+    "orientation": "natural"
+}
