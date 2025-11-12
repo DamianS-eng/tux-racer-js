@@ -10,7 +10,7 @@
     ],
     "categories": ["gaming", "entertainment"],
     "description": "DaMu's Fork of ebbejan's Tux Racer JS from GitHub",
-    "start_url": "./",
+    "start_url": "../",
     "theme_color": "#4040c8",
     "background_color": "#3333ee",
     "display": "standalone",
