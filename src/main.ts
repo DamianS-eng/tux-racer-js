@@ -148,3 +148,11 @@ document.addEventListener("keydown", (event) => {
     window.location.reload();
   }
 });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+    .then(reg => console.log('Service Worker for Offline Cache:', reg))
+    .catch(err => console.error('Service Worker registration failed:', err));
+  });
+}
