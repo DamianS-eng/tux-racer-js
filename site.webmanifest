@@ -4,15 +4,34 @@
     "icons": [
         {
             "src": "https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/32x32%23/wpQMLY.png",
-            "sizes": "any",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+
+        {
+            "src": "https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/512x512%23/wpQMLY.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
+    "screenshots" : [
+        "src":"https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/512x512%23/wpQMLY.png",
+        "sizes":"512x512",
+        "type":"image/png",
+        "platform":"wide"
+    ],
+    "lang": "en",
     "categories": ["gaming", "entertainment"],
     "description": "DaMu's Fork of ebbejan's Tux Racer JS from GitHub",
+    "id": "/tux-racer-js/",
     "start_url": "../",
     "theme_color": "#4040c8",
     "background_color": "#3333ee",
     "display": "fullscreen",
+    "display_override": [
+        "fullscreen",
+        "standalone",
+        "window-controls-overlay",
+    ],
     "orientation": "natural"
 }
