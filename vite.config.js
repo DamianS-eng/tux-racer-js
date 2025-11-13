@@ -1,5 +1,5 @@
 export default {
-  base: "./",
+  base: "/tux-racer-js/",
   build: {
     target: "esnext",
   },
