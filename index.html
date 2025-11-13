@@ -50,5 +50,14 @@
 </div>
 
 <script type="module" src="src/main.ts"></script>
+<script>
+if (typeof navigator.serviceWorker !== 'undefined') {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+    .then(reg => console.log('Service Worker for Offline Cache:', reg))
+    .catch(err => console.error('Service Worker registration failed:', err));
+  });
+}
+</script>
 </body>
 </html>
