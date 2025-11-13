@@ -22,7 +22,7 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-      fetch(event.request)
+    fetch(event.request)
       .then(response => {
         const clone = response.clone();
         caches.open(cacheName).then(cache => cache.put(event.request, clone));
@@ -32,6 +32,6 @@ self.addEventListener('fetch', event => {
         return caches.match(event.request).then(response => {
           return response || caches.match(offlineURL);
         });
-      });
-    );
+      })
+  );
 });
