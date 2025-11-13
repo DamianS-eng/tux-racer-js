@@ -7,7 +7,6 @@
             "sizes": "32x32",
             "type": "image/png"
         },
-
         {
             "src": "https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/512x512%23/wpQMLY.png",
             "sizes": "512x512",
@@ -15,10 +14,12 @@
         }
     ],
     "screenshots" : [
+        {
         "src":"https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/512x512%23/wpQMLY.png",
         "sizes":"512x512",
         "type":"image/png",
         "platform":"wide"
+        }
     ],
     "lang": "en",
     "categories": ["gaming", "entertainment"],
