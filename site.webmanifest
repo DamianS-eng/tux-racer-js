@@ -32,7 +32,7 @@
     "display_override": [
         "fullscreen",
         "standalone",
-        "window-controls-overlay",
+        "window-controls-overlay"
     ],
     "orientation": "natural"
 }
