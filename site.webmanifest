@@ -8,16 +8,16 @@
             "type": "image/png"
         },
         {
-            "src": "https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/512x512%23/wpQMLY.png",
+            "src": "https://raw.githubusercontent.com/DamianS-eng/tux-racer-js/refs/heads/main/public/assets/splash.webp",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/webp"
         }
     ],
     "screenshots" : [
         {
-        "src":"https://img.itch.zone/aW1nLzIwMTk4NDA0LnBuZw==/512x512%23/wpQMLY.png",
-        "sizes":"512x512",
-        "type":"image/png",
+        "src":"https://raw.githubusercontent.com/DamianS-eng/tux-racer-js/refs/heads/main/screenshot.webp",
+        "sizes":"1408x888",
+        "type":"image/webp",
         "platform":"wide"
         }
     ],
@@ -31,8 +31,7 @@
     "display": "fullscreen",
     "display_override": [
         "fullscreen",
-        "standalone",
-        "window-controls-overlay"
+        "standalone"
     ],
     "orientation": "natural"
 }
