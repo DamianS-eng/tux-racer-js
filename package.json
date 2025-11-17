@@ -25,5 +25,8 @@
   "dependencies": {
     "@types/howler": "^2.2.12",
     "howler": "^2.2.4"
+  },
+  "engines": {
+    "node": "22"
   }
 }
